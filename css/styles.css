@@ -10,7 +10,22 @@ a:link {
 }
 
 ul {
+  margin: 0;
+  padding-left: 0;
   list-style-type: none;
+}
+
+img {
+  display: block;
+}
+
+header .container {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  max-width: 100%;
+  padding-left: 156px;
+  padding-right: 156px;
 }
 
 .header-logo {
@@ -22,11 +37,17 @@ ul {
   color: #2e2f42;
 }
 
-.header-logo-web {
+.header-logo-web,
+.footer-logo-web {
   color: #4d5ae5;
 }
 
 .header-navigation {
+  display: flex;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 76px;
+  gap: 40px;
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
@@ -42,17 +63,28 @@ ul {
   color: #2e2f42;
 }
 
-address .link {
+.address-contacts {
+  display: flex;
+  align-self: stretch;
+  gap: 40px;
+}
+
+.address-contacts .link {
+  display: flex;
   font-style: normal;
   color: #434455;
 }
 
-.main-page {
+.main-page .container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   background-color: #2e2f42;
 }
 
 .main-page-title {
-  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding-top: 188px;
   font-weight: 700;
   font-size: 56px;
   color: white;
@@ -63,22 +95,98 @@ address .link {
 
 .main-page-order-button {
   border-radius: 4px;
+  margin-top: 48px;
+  margin-bottom: 188px;
   padding: 16px 32px;
+  max-width: 169px;
+  max-height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   cursor: pointer;
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.04em;
+  text-align: center;
+  white-space: nowrap;
   color: #fff;
+}
+
+.solutions .container {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  max-width: 100%;
+  padding-left: 156px;
+  padding-right: 156px;
+  margin: 0;
+  padding-top: 120px;
+}
+
+.solutions-list {
+  display: flex;
+  gap: 24px;
+}
+
+.our-team .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  padding-left: 156px;
+  padding-right: 156px;
+  padding-top: 240px;
+  margin: 0;
+  gap: 72px;
+}
+
+.our-team-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  flex-basis: calc((100% / 4) - (24px * 3) / 4);
+}
+
+.our-team-list li {
+  padding-bottom: 32px;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
+}
+
+.our-team-item-title,
+.portfolio-item-title {
+  padding-top: 32px;
+}
+
+.portfolio .container {
+  display: flex;
+  max-width: 100%;
+  padding-left: 156px;
+  padding-right: 156px;
+  padding-top: 240px;
+  margin: 0;
+  align-items: center;
+  flex-direction: column;
+  gap: 72px;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  flex-basis: calc((100% / 3) - (24px * 2) / 3);
+}
+
+.portfolio-list li {
+  padding-bottom: 32px;
 }
 
 .solutions-item-title,
 .our-team-item-title,
 .portfolio-item-title {
-  font-family: "Roboto", sans-serif;
+  margin: 0;
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
@@ -90,13 +198,15 @@ address .link {
 .portfolio-title,
 .our-team-item-title,
 .our-team-item-text {
+  margin: 0;
   text-align: center;
 }
 
 .solutions-item-text,
 .our-team-item-text,
 .portfolio-item-text {
-  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding-top: 8px;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
@@ -106,7 +216,7 @@ address .link {
 
 .our-team-title,
 .portfolio-title {
-  font-family: "Roboto", sans-serif;
+  margin: 0;
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
@@ -114,7 +224,14 @@ address .link {
   color: #2e2f42;
 }
 
-footer {
+footer .container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 156px;
+  padding-right: 156px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-top: 120px;
   background-color: #2e2f42;
 }
 
@@ -125,17 +242,10 @@ footer {
   color: #f4f4fd;
 }
 
-.footer-logo-web {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 117%;
-  letter-spacing: 0.03em;
-  color: #4d5ae5;
-}
-
 .footer-text {
-  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding-top: 16px;
+  max-width: 264px;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
