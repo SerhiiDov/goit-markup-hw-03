@@ -115,7 +115,7 @@ header .container {
   color: #fff;
 }
 
-.solutions .container {
+.advantages .container {
   display: flex;
   flex-direction: row;
   align-items: baseline;
@@ -126,7 +126,7 @@ header .container {
   padding-top: 120px;
 }
 
-.solutions-list {
+.advantages-list {
   display: flex;
   gap: 24px;
 }
@@ -187,7 +187,7 @@ header .container {
   padding-bottom: 32px;
 }
 
-.solutions-item-title,
+.advantages-item-title,
 .our-team-item-title,
 .portfolio-item-title {
   margin: 0;
@@ -206,7 +206,7 @@ header .container {
   text-align: center;
 }
 
-.solutions-item-text,
+.advantages-item-text,
 .our-team-item-text,
 .portfolio-item-text {
   margin: 0;
