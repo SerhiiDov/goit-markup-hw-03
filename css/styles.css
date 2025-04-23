@@ -17,6 +17,10 @@ ul {
   list-style-type: none;
 }
 
+img {
+  display: block;
+}
+
 .main-header {
   border-bottom: 1px solid #e7e9fc;
 }
@@ -35,6 +39,7 @@ ul {
 }
 
 .header-logo {
+  padding: 24px 0;
   margin-right: 76px;
   font-family: "Raleway", sans-serif;
   text-decoration: none;
@@ -75,20 +80,20 @@ ul {
   color: #404bbf;
 }
 
-.address-contacts {
+.address-contacts-list {
   display: flex;
   margin-left: 332px;
   gap: 40px;
 }
 
-.address-contacts a {
+.address-contacts-list a {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-.address-contacts a:hover,
-.address-contacts a:focus {
+.address-contacts-list a:hover,
+.address-contacts-list a:focus {
   color: #404bbf;
 }
 
@@ -193,7 +198,6 @@ ul {
 }
 
 .our-team-image {
-  display: block;
   border-radius: 0px 0px 4px 4px;
 }
 
