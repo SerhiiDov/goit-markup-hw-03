@@ -21,13 +21,6 @@ img {
   display: block;
 }
 
-.link {
-  margin: 0;
-  text-decoration: none;
-  font-style: normal;
-  color: #2e2f42;
-}
-
 .main-header {
   border-bottom: 1px solid #e7e9fc;
 }
@@ -67,8 +60,15 @@ img {
   gap: 40px;
 }
 
-.header-navigation-list-item {
+.link {
+  margin: 0;
   padding: 24px 0;
+  text-decoration: none;
+  font-style: normal;
+  color: #2e2f42;
+}
+
+.header-navigation-list-item {
   line-height: 150%;
   letter-spacing: 0.02em;
   font-weight: 500;
