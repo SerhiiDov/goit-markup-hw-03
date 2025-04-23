@@ -39,6 +39,7 @@ img {
 }
 
 .header-logo {
+  padding: 24px 0;
   margin-right: 76px;
   font-family: "Raleway", sans-serif;
   text-decoration: none;
@@ -62,13 +63,13 @@ img {
 
 .link {
   margin: 0;
+  padding: 24px 0;
   text-decoration: none;
   font-style: normal;
   color: #2e2f42;
 }
 
 .header-navigation-list-item {
-  padding: 24px 0;
   line-height: 150%;
   letter-spacing: 0.02em;
   font-weight: 500;
