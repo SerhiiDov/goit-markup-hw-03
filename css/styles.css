@@ -80,20 +80,20 @@ img {
   color: #404bbf;
 }
 
-.address-contacts-list {
+.header-address-list {
   display: flex;
   margin-left: 332px;
   gap: 40px;
 }
 
-.address-contacts-list a {
+.header-address-list a {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-.address-contacts-list a:hover,
-.address-contacts-list a:focus {
+.header-address-list a:hover,
+.header-address-list a:focus {
   color: #404bbf;
 }
 
