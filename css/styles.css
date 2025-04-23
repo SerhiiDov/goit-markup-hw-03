@@ -17,10 +17,6 @@ ul {
   list-style-type: none;
 }
 
-img {
-  display: block;
-}
-
 .main-header {
   border-bottom: 1px solid #e7e9fc;
 }
@@ -182,35 +178,23 @@ img {
   background-color: #f4f4fd;
 }
 
-.our-team .container,
-.portfolio .container {
-  gap: 72px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.our-team-title,
-.portfolio-title {
-  margin-bottom: 72px;
-}
-
 .our-team-list {
   display: flex;
   gap: 24px;
 }
 
 .our-team-list-item {
-  background-color: #ffffff;
-}
-
-.our-team-list-item li {
   width: calc((100% - 3 * 24px) / 4);
   padding-bottom: 32px;
   border-radius: 0 0 4px 4px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  background: #fff;
+  background: #ffffff;
+}
+
+.our-team-image {
+  display: block;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .our-team-list-item-wrapped {
@@ -218,6 +202,7 @@ img {
 }
 
 .our-team-list-item-title {
+  margin: 0;
   margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
@@ -228,6 +213,7 @@ img {
 }
 
 .our-team-list-item-text {
+  margin: 0;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
@@ -259,13 +245,19 @@ img {
   padding: 32px 16px;
 }
 
-.ortfolio-list-item-title {
+.portfolio-list-item-title {
+  margin: 0;
   margin-bottom: 8px;
+}
+
+.portfolio-list-item-text {
+  margin: 0;
 }
 
 .our-team-title,
 .portfolio-title {
   margin: 0;
+  margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
@@ -273,7 +265,6 @@ img {
   color: #2e2f42;
   text-transform: capitalize;
   text-align: center;
-  color: #2e2f42;
 }
 
 .main-footer {
