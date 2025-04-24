@@ -142,6 +142,13 @@ img {
   padding: 120px 0;
 }
 
+.advantages .container {
+  margin: 0 auto;
+  width: 1158px;
+  padding: 0 15px;
+  display: flex;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -181,6 +188,12 @@ img {
 .our-team {
   padding: 120px 0;
   background-color: #f4f4fd;
+}
+
+.our-team .container {
+  margin: 0 auto;
+  width: 1158px;
+  padding: 0 15px;
 }
 
 .our-team-list {
@@ -229,6 +242,12 @@ img {
 .portfolio {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+
+.portfolio .container {
+  margin: 0 auto;
+  width: 1158px;
+  padding: 0 15px;
 }
 
 .portfolio-list {
