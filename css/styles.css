@@ -1,5 +1,4 @@
 .container {
-  width: 1440px;
   align-content: center;
   margin: 0 auto;
 }
@@ -63,6 +62,7 @@ img {
 }
 
 .link {
+  display: block;
   margin: 0;
   padding: 24px 0;
   text-decoration: none;
@@ -176,10 +176,18 @@ img {
 .advantages-list-item-title {
   margin: 0;
   margin-bottom: 8px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .advantages-list-item-text {
   margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
@@ -204,7 +212,6 @@ img {
 
 .our-team-list-item {
   width: calc((100% - 3 * 24px) / 4);
-  padding-bottom: 32px;
   border-radius: 0 0 4px 4px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
@@ -216,28 +223,31 @@ img {
   margin: auto;
 }
 
-.our-team-list-item-wrapped {
+.our-team-list-item-wrapper {
   padding: 32px 0;
 }
 
 .our-team-list-item-title {
   margin: 0;
   margin-bottom: 8px;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
   letter-spacing: 0.02em;
-  color: #2e2f42;
   text-align: center;
+  color: #2e2f42;
 }
 
 .our-team-list-item-text {
   margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
-  color: #434455;
   text-align: center;
+  color: #434455;
 }
 
 .portfolio {
@@ -273,10 +283,22 @@ img {
 .portfolio-list-item-title {
   margin: 0;
   margin-bottom: 8px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .portfolio-list-item-text {
   margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .our-team-title,
@@ -325,6 +347,9 @@ footer .container {
 .footer-text {
   margin: 0;
   max-width: 264px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #f4f4fd;
